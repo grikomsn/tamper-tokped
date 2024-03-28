@@ -22,6 +22,7 @@
   el.innerHTML = css`
     * {
       animation-duration: 0s !important;
+      transition-duration: 0s !important;
     }
 
     [aria-label="unf-overlay"],
