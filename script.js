@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tamper Tokped
-// @version      0.0.1
+// @version      0.0.2
 // @description  Userscript to improve Tokopedia by overriding and/or hiding elements
 // @license      MIT
 // @author       Griko Nibras
