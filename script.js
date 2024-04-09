@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tamper Tokped
-// @version      0.0.5
+// @version      0.0.6
 // @description  Userscript to improve Tokopedia by overriding and/or hiding elements
 // @license      MIT
 // @author       Griko Nibras
@@ -34,11 +34,14 @@
       opacity: 1;
     }
 
+    [data-unify="Footer"] /* hide footer */,
     .css-1rm20k0 > [tabindex="-1"] /* hide wishlist info callout */,
     #trending-popular-keywords /* hide navbar trending keywords */,
     button:has([data-testid="btnChatFloating"]) /* hide floating chat button */,
+    hr,
+    main > div:has(.carousel),
     [hide-unnecessary-elements] {
-      display: none;
+      display: none !important;
     }
 
     [data-testid="tblHomeFavoriteToko"] > [href*="ta.tokopedia.com/promo"] /* hide promoted stores in followed stores */,
